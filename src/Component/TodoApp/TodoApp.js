@@ -1,7 +1,6 @@
 import React, { useState,useEffect } from 'react';
 import Paper from '@mui/material/Paper';
 import AppBar from '@mui/material/AppBar';
-import { red } from '@mui/material/colors';
 import { Toolbar, Typography, Grid } from '@mui/material';
 import TodoList from '../TodoList/TodoList';
 import TodoForm from '../TodoForm/TodoForm';
@@ -52,6 +51,7 @@ setTodo(update);
         padding: 0,
         height: '100vh',
         backgroundColor:'white',
+        
        }}
        elevation={0}
       >
